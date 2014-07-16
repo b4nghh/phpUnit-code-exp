@@ -15,4 +15,13 @@ class FirstTest extends \PHPUnit_Framework_TestCase
 		$foo = true;
 		$this->assertTrue($foo);
 	}
+
+	/**
+	 * testFalseIsFalse method
+	 */
+	public function testFalseIsFalse()
+	{
+		$foo = false;
+		$this->assertFalse($foo);
+	}
 }
