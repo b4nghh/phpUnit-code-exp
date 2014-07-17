@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/banghh/public_html/kid_iso"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://my.local.website/"
+		}
+	}
+}

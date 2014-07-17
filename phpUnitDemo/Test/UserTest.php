@@ -35,4 +35,17 @@ class UserTest extends \PHPUnit_Framework_TestCase
 
 		$this->assertEquals($currentUser['password'], $expectedPasswordResult);
 	}
+
+	public function testSetPasswordReturnsFalseWhenPasswordLengthIsTooShort()
+	{
+		$details = array();
+
+		$user = new User($details);
+
+		$password = 'fub';
+
+		$result = $user->setPassword($password);
+
+		$this->assertFalse($result);
+	}
 }

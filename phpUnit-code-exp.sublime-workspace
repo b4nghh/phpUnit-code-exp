@@ -1,0 +1,225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"debu",
+				"debug($pdca"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"coloc",
+				"Color Picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/banghh/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/banghh/public_html/phpUnit-code-exp/gedit",
+		"/opt/lampp/etc/php.ini",
+		"/home/banghh/public_html/phpUnit-code-exp/phpUnit-code-exp.sublime-project",
+		"/home/banghh/public_html/kid_iso/app/View/Instructors/pdca_aqua.ctp",
+		"/home/banghh/public_html/kid_iso/app/View/Instructors/pdca_residous.ctp",
+		"/home/banghh/public_html/kid_iso/app/View/Instructors/pdca_gas.ctp",
+		"/home/banghh/public_html/kid_iso/app/View/Instructors/view_pdca.ctp",
+		"/home/banghh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/banghh/public_html/kid_iso/app/Controller/InstructorsController.php",
+		"/home/banghh/public_html/kid_iso/app/Config/database.php",
+		"/home/banghh/public_html/kid_iso/lib/Cake/Test/Case/Controller/Component/Acl/DbAclTest.php",
+		"/home/banghh/public_html/kid_iso/app/Config/Schema/db_acl.php",
+		"/home/banghh/public_html/kid_iso/lib/Cake/Config/config.php",
+		"/home/banghh/public_html/kid_iso/CONTRIBUTING.md",
+		"/home/banghh/public_html/kid_iso/lib/Cake/Console/ConsoleOutput.php",
+		"/home/banghh/public_html/phpUnit-code-exp/composer.json",
+		"/home/banghh/public_html/kid_iso/app/View/Instructors/pdca_electric.ctp",
+		"/home/banghh/public_html/kid_iso/app/Model/Instructor.php",
+		"/home/banghh/public_html/phpUnit-code-exp/vendor/phpunit/phpunit/tests/_files/ExceptionInSetUpTest.php",
+		"/home/banghh/public_html/phpUnit-code-exp/vendor/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php",
+		"/home/banghh/public_html/phpUnit-code-exp/vendor/phpunit/phpunit/src/Framework/Constraint/IsNull.php",
+		"/home/banghh/public_html/kid_iso/index.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$pdca_data[",
+			"family_comment",
+			"$pdca_data[",
+			"plan_content",
+			"($pdca_data['",
+			"$pdca_data[",
+			"plan_content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "phpUnit-code-exp.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"data",
+				"kid_iso/app/Config/database.php"
+			],
+			[
+				"config",
+				"kid_iso/lib/Cake/Config/config.php"
+			],
+			[
+				"instructors",
+				"kid_iso/app/Controller/InstructorsController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
