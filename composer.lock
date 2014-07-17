@@ -4,9 +4,41 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19ba5c3ee1f1c9aa29f16630b7fc5ed1",
+    "hash": "db946074709ccf309ce93e4e9bd7e9a7",
     "packages": [
-
+        {
+            "name": "ajbdev/authorizenet-php-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajbdev/authorizenet-php-api.git",
+                "reference": "879f60b7b1bfc6dbf8166ad3d1db0c80be71b6cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajbdev/authorizenet-php-api/zipball/879f60b7b1bfc6dbf8166ad3d1db0c80be71b6cd",
+                "reference": "879f60b7b1bfc6dbf8166ad3d1db0c80be71b6cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/",
+                    "AuthorizeNet.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Authorize.NET PHP library with composer support",
+            "keywords": [
+                "authorize.net",
+                "ecommerce",
+                "payment"
+            ],
+            "time": "2014-02-21 16:14:50"
+        }
     ],
     "packages-dev": [
         {
@@ -710,9 +742,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "ajbdev/authorizenet-php-api": 20
+    },
     "platform": [
 
     ],
